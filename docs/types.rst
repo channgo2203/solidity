@@ -52,7 +52,7 @@ Operators:
 
 * Comparisons: ``<=``, ``<``, ``==``, ``!=``, ``>=``, ``>`` (evaluate to ``bool``)
 * Bit operators: ``&``, ``|``, ``^`` (bitwise exclusive or), ``~`` (bitwise negation)
-* Arithmetic operators: ``+``, ``-``, unary ``-``, unary ``+``, ``*``, ``/``, ``%`` (remainder), ``**`` (exponentiation)
+* Arithmetic operators: ``+``, ``-``, unary ``-``, binary ``+``, ``*``, ``/``, ``%`` (remainder), ``**`` (exponentiation)
 
 Division always truncates (it just maps to the DIV opcode of the EVM), but it does not truncate if both
 operators are :ref:`literals<rational_literals>` (or literal expressions).
